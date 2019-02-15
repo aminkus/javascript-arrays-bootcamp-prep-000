@@ -11,7 +11,8 @@ function destructivelyAddElementToEndOfArray(array,element){array.push('foo')
 function accessElementInArray(array, index){return array[2]}
 function destructivelyRemoveElementFromBeginningOfArray(array){array.shift() 
     return array}
-function removeElementFromBeginningOfArray(array){array.slice(1)
+function removeElementFromBeginningOfArray(array){
+  array.slice(1)
     return array}
 function destructivelyRemoveElementFromEndOfArray(array){return array.pop()}
 function removeElementFromEndOfArray(array){return array.slice(0)}
